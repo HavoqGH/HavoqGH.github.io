@@ -67,15 +67,54 @@
   .main {   
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(24, 24, 24);
     padding: 20px;
+    font-size: large;
   }
+
+/* Container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px; /* Adjust the width as needed */
+  background-color: #333; /* Dark background for dark mode */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Content styling */
+.content {
+  width: 100%;
+  padding: 20px;
+  color: #fff; /* Light text for readability in dark mode */
+}
+
+.content h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
   
   /* Fake image, just for this example */
   .fakeimg {
     background-color: #313131;
     width: 100%;
     padding: 20px;
+    font-size: large;
   }
   
   /* Footer */
@@ -98,4 +137,44 @@
       float: none;
       width: 100%;
     }
+  }
+
+  .profile-picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-picture {
+    width: 500px; /* Set the desired size */
+    height: 500px; /* Set the desired size */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the box without stretching */
+    border: 2px solid #fff; /* Optional: Adds a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow */
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .icons {
+    width: 100px; /* Set the desired size */
+    height: 100px; /* Set the desired size */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the box without stretching */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow */
+    margin: 10px;
+  }
+
+  .media-icons {
+    width: 200px; /* Set the desired size */
+    height: 55px; /* Set the desired size */
+    object-fit: cover; /* Ensures the image covers the box without stretching */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow */
+    margin: 10px;
   }
