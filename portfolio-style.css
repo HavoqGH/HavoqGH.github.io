@@ -14,8 +14,9 @@
     padding: 80px;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    background: #353535;
+    background: #060614;
     color: rgb(192, 192, 192);
+    flex: auto;
   }
   
   /* Increase the font size of the heading */
@@ -67,7 +68,7 @@
   .main {   
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
-    background-color: rgb(24, 24, 24);
+    background-color: #1B1A55;
     padding: 20px;
     font-size: large;
   }
@@ -80,7 +81,7 @@
   padding: 20px;
   margin: 20px auto;
   max-width: 1200px; /* Adjust the width as needed */
-  background-color: #333; /* Dark background for dark mode */
+  background-color: #111035; /* Dark background for dark mode */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -121,7 +122,8 @@
   .footer {
     padding: 20px;
     text-align: center;
-    background: #111111;
+    background: #070F2B;
+    flex: auto;
   }
   
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
